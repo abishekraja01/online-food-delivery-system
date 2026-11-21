@@ -1,0 +1,26 @@
+# Compiled class files and Maven output
+target/
+*.jar
+*.war
+*.ear
+
+# Maven wrapper local cache
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Local environment & secret overrides
+.env
+*.env
+application-local.properties
+application-local.yml
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
