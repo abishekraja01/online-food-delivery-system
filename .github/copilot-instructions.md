@@ -1,7 +1,7 @@
 # Project Architecture & Coding Standards
 
 ## 1. Core Stack & Versions
-- **Runtime & Framework:** Java 21 (LTS), Spring Boot 4.2.0, Spring Cloud 2026.0.0.
+- **Runtime & Framework:** Java 21 (LTS), Spring Boot 4.2.0, Spring Cloud 2026.0.0-SNAPSHOT.
 - **Data & Persistence:** Spring Data JPA, Hibernate, MySQL (`mysql-connector-j`).
 - **Utilities & Docs:** Lombok, Springdoc OpenAPI 3.0.0 (`springdoc-openapi-starter-webmvc-ui`).
 - **Build System:** Multi-module Maven project (`online-food-delivery-system` parent POM). Child POMs inherit versions from `../pom.xml` and must not redeclare `<java.version>` or duplicate `<dependencyManagement>`.
